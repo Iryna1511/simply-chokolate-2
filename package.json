@@ -1,15 +1,11 @@
 {
-  "name": "vanilla-app-template",
+  "name": "simply-chokolate-2",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "runs": {
-    "using": "node20",
-    "main": "main.js"
-  },
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/vanilla-app-template/",
+    "build": "vite build --base=/simply-chokolate-2/",
     "preview": "vite preview"
   },
   "devDependencies": {
