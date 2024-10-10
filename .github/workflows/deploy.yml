@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main # Заміни на гілку, яку ти хочеш
+      - main # Основна гілка, з якої деплоїтиметься проєкт
 
 jobs:
   build:
@@ -11,10 +11,10 @@ jobs:
 
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v4 # Оновлюємо до останньої версії
+        uses: actions/checkout@v3
 
       - name: Install Node.js
-        uses: actions/setup-node@v4 # Використовуємо останню версію Node.js setup
+        uses: actions/setup-node@v3
         with:
           node-version: "20"
 
@@ -25,7 +25,7 @@ jobs:
         run: npm run build
 
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4 # Оновлюємо до останньої версії
+        uses: JamesIves/github-pages-deploy-action@v4.4.0
         with:
           branch: gh-pages # Гілка для деплою
           folder: dist # Папка з файлами для деплою
