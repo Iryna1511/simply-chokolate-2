@@ -737,6 +737,10 @@ button {
   border: 1.5px solid rgba(255, 255, 255, 0.15);
   border-radius: 30px;
   background-color: transparent;
+  color: #fafafa;
+}
+.footer-input:valid {
+  background-color: transparent;
 }
 .footer-subscribe-btn {
   display: block;

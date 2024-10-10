@@ -1,10 +1,11 @@
-const btnCloseMenu = document.getElementById("close");
-const btnOpenMenu = document.getElementById("burger");
-const mobMenu = document.querySelector(".mob-overlay");
-
-const btnCloseModalForm = document.getElementById("closeMd");
-const btnOpenModalForm = document.getElementById("review");
-const modalForm = document.querySelector(".backdrop");
+import {
+  btnCloseMenu,
+  btnOpenMenu,
+  mobMenu,
+  btnCloseModalForm,
+  btnOpenModalForm,
+  modalForm,
+} from "./constants.js";
 
 function toggleMenu(e) {
   mobMenu.classList.toggle("is-open");
