@@ -19,9 +19,9 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/simply-chokolate-2/index.js"></script>
-    <link rel="modulepreload" crossorigin href="/simply-chokolate-2/assets/vendor-DE-CD6P0.js">
-    <link rel="stylesheet" crossorigin href="/simply-chokolate-2/assets/vendor-B7yGNg8H.css">
-    <link rel="stylesheet" crossorigin href="/simply-chokolate-2/assets/index-D8GL7eI4.css">
+    <link rel="modulepreload" crossorigin href="/simply-chokolate-2/assets/vendor-DsZ5aY40.js">
+    <link rel="stylesheet" crossorigin href="/simply-chokolate-2/assets/vendor-CmMDMEUb.css">
+    <link rel="stylesheet" crossorigin href="/simply-chokolate-2/assets/index-4qoSNnXY.css">
   </head>
   <body>
     <!-- HEADER -->
@@ -96,9 +96,8 @@
           </h1>
           <div class="hero-btns">
             <button class="buy-btn" type="button">Buy now</button>
-            <a class="hero-link link" href="/index.html#making"
-              >How it's made</a
-            >
+            <a class="hero-link link" href="#making">How it's made</a>
+            <!-- todo btn up/down -->
             <!-- <a href="" class="scroll-link link">scroll down <svg class="">
               <use></use>
             </svg></a> -->
@@ -107,6 +106,7 @@
       </section>
 
       <!-- BENEFITS -->
+      <!-- todo check styles width -->
       <section class="benefits">
         <div class="container">
           <h2 class="visually-hidden">Benefits</h2>
@@ -482,10 +482,11 @@
             </ul>
           </nav>
           <form class="footer-form" action="">
-            <label for="footer-email"
-              ><input
+            <label for="footer-email">
+              <input
                 class="footer-input"
                 id="footer-email"
+                name="email"
                 type="email"
                 placeholder="Enter your email"
             /></label>
@@ -497,7 +498,7 @@
       </div>
     </footer>
 
-    <!-- BackDrop -->
+    <!-- BackDrop FORM -->
     <div class="backdrop">
       <div class="modal">
         <h2 class="section-title">
@@ -534,6 +535,8 @@
               id="comment"
               placeholder="Enter text"
             ></textarea>
+
+            <!-- todo checkbox -->
           </div>
 
           <button class="footer-subscribe-btn" type="submit">Send</button>
