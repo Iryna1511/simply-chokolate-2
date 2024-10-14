@@ -8,3 +8,5 @@ export const modalForm = document.querySelector(".backdrop");
 export const form = document.querySelector(".form");
 
 export const footerForm = document.querySelector(".footer-form");
+export const scrollBtn = document.querySelector(".scroll-link");
+export const sections = document.querySelectorAll("section");

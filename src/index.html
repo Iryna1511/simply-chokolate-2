@@ -22,7 +22,7 @@
   </head>
   <body>
     <!-- HEADER -->
-    <header class="page-header">
+    <header class="page-header" id="header">
       <div class="container">
         <div class="logo-wrap">
           <a class="logo link" href="./index.html"><i>Simply</i> chokolate</a>
@@ -85,7 +85,7 @@
     </header>
     <main>
       <!-- HERO -->
-      <section class="hero">
+      <section class="hero" id="hero">
         <div class="container">
           <h1 class="hero-title">
             Treat yourself or a loved one to our finest ingredients for a moment
@@ -94,16 +94,11 @@
           <div class="hero-btns">
             <button class="buy-btn" type="button">Buy now</button>
             <a class="hero-link link" href="#making">How it's made</a>
-            <!-- todo btn up/down -->
-            <!-- <a href="" class="scroll-link link">scroll down <svg class="">
-              <use></use>
-            </svg></a> -->
           </div>
         </div>
       </section>
 
       <!-- BENEFITS -->
-      <!-- todo check styles width -->
       <section class="benefits" id="benefits">
         <div class="container">
           <h2 class="visually-hidden">Benefits</h2>
@@ -463,10 +458,19 @@
           </button>
         </div>
       </section>
+
+      <a href="#footer" class="scroll-link link">
+        <svg class="scroll-icon" width="16" height="16" aria-label="scroll">
+          <use href="./images/icons.svg#icon-scroll"></use>
+        </svg>
+        <svg class="scroll-icon" width="16" height="16" aria-label="scroll">
+          <use href="./images/icons.svg#icon-scroll"></use>
+        </svg>
+      </a>
     </main>
 
     <!-- FOOTER -->
-    <footer class="footer section">
+    <footer class="footer section" id="footer">
       <div class="container">
         <div class="footer-slogan-wrap">
           <p class="slogan">

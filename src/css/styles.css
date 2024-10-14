@@ -1064,3 +1064,26 @@ button {
     display: none;
   }
 }
+
+.scroll-link {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  background-color: #fcf1e0;
+  width: 40px;
+  height: fit-content;
+  border: none;
+  border-radius: 50%;
+  color: #fd9222;
+}
+.scroll-icon:first-child {
+  transform: rotateZ(180deg);
+}
+.scroll-icon {
+  stroke: #fd9222;
+}
